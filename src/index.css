@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Climate Crisis';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/ClimateCrisis-Regular.ttf") format("ttf");
+}
+
+html,
+body {
+    font-family: 'Climate Crisis', sans-serif;
+}

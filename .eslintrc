@@ -1,0 +1,28 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": [
+      "airbnb-base",
+      "eslint:recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:react/recommended"
+  ],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "rules": {
+      "newline-before-return":"error",
+      "quotes": ["error", "single"],
+      "no-undef":"error",
+      "linebreak-style": ["error", "windows"],
+      "no-plusplus": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
